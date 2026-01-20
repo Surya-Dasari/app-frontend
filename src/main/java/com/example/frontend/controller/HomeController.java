@@ -15,4 +15,9 @@ public class HomeController {
     public String health() {
         return "OK";
     }
+
+    @GetMapping("/version")
+    public String version() {
+        return "v1.0.0";
+    }
 }
