@@ -1,0 +1,12 @@
+server:
+  port: 9080
+
+spring:
+  application:
+    name: app-frontend
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
