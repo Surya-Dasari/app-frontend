@@ -1,10 +1,6 @@
 pipeline {
     agent { label 'maven' }
 
-    tools {
-        maven 'maven'
-    }
-
     stages {
         stage('Checkout') {
             steps {
@@ -28,3 +24,4 @@ pipeline {
         }
     }
 }
+
